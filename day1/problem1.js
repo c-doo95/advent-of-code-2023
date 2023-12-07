@@ -1,2 +1,11 @@
+str = "dfsgfs55ffour2956";
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
 const firstDigit = str.match(/[0-9]/);
-const lastDigit = str.amtch(/[0-9]/);
+const lastDigit = reverseString(str).match(/[0-9]/);
+
+console.log(firstDigit);
+console.log(lastDigit);
