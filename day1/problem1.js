@@ -13,6 +13,5 @@ console.log(lastDigit);
 let value = Number("" + firstDigit + lastDigit);
 console.log(value);
 
-let total = value + 15;
+let total = total + value;
 
-console.lo
